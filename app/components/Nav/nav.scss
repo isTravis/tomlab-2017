@@ -1,0 +1,33 @@
+.navbar {
+	position: absolute;
+	width: 100%;
+	// height: 50px;
+	color: white;
+	// line-height: 50px;	
+	// padding: 0em 1em;
+	// width: 100%;
+	// top: 0;
+	z-index: 1000000;
+	// padding-bottom: 10em;
+	a {
+		text-decoration: none;
+		color: inherit;
+		padding: 0em 1em;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.logo {
+		padding: 0em;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.nav-links {
+		display: inline-block;
+		float: right;
+	}
+	
+}
+

@@ -1,0 +1,34 @@
+.project-page {
+	.header {
+		background-image: url('/images/landing.jpg');
+		background-size: cover;
+		background-position: center center;
+		padding: 10em 0em 5em;
+		&.hero-sigin { background-image: url('/images/sigin.jpg'); }
+		&.hero-ben { background-image: url('/images/ben.jpg'); }
+		&.hero-martin { background-image: url('/images/martin.jpg'); }
+		&.hero-nat { background-image: url('/images/nat.jpg'); }
+		position: relative;
+	}
+	.project-title {
+		padding-bottom: 5em;
+	}
+	.subheader {
+		color: white;
+		padding: 2em 0em 0em;
+		font-size: 1.5em;
+	}
+	img {
+		max-width: 100%;
+		width: auto;
+		padding: 2em 0em;
+		margin: 0 auto;
+		display: block;
+	}
+	iframe {
+		width: 100%;
+		padding: 3em 0em;
+		margin: 0 auto;
+		height: 400px;
+	}
+}

@@ -1,0 +1,61 @@
+.landing-page {
+	.header {
+		background-image: url('/images/landing.jpg');
+		background-size: cover;
+		padding: 10em 0em 5em;
+		position: relative;
+	}
+	.blocks {
+		.block {
+			// width: 200px;
+			border-radius: 3px;
+			background-color: #ffffff;
+		    box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+		    text-decoration: none;
+		    color: inherit;
+			span {
+				position: relative;
+				font-weight: bold;
+				font-size: 1.5em;
+				z-index: 2;
+				position: relative;
+				color: $accent;
+				&:after {
+					display: block;
+					content: "";
+					position: absolute;
+					bottom: -5px;
+					width: 105%;
+					height: 3px;
+					background-color: white;
+				}
+			}
+			p {
+				// padding-right: 200px;
+				z-index: 2;
+				position: relative;
+			}
+			img {
+				// float: right;
+				// height: calc(200px - 2rem);
+				// display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				filter: blur(8px);
+				opacity: 0.5;
+				z-index: 1;
+			}
+			&:hover {
+				img {
+					filter: blur(0px);
+				}
+			}
+		}
+		.block-content {
+			padding: 20px;
+		}
+	}
+}
