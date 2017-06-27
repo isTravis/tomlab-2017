@@ -7,7 +7,7 @@ const NavBar = function() {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-12'}>
-						<Link to={'/'} className={'logo heavy'}>TOM LAB</Link>
+						<Link to={'/'} className={'logo heavy'}>TOM LAB 2017</Link>
 					</div>
 				</div>
 			</div>

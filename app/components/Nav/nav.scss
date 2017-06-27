@@ -19,7 +19,8 @@
 	}
 
 	.logo {
-		padding: 0em;
+		padding: 0.5em 0em;
+		display: inline-block;
 		&:hover {
 			text-decoration: none;
 		}
