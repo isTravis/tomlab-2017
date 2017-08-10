@@ -44,7 +44,8 @@ const Project = function(props) {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-12'}>
-						<ReactMarkdown source={projectData.markdown} />
+						{/*<ReactMarkdown source={projectData.markdown} />*/}
+						<div dangerouslySetInnerHTML={{ __html: projectData.html }} />
 					</div>
 				</div>
 			</div>

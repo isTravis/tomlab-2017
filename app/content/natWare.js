@@ -4,4 +4,5 @@ export default {
 	description: 'Tradable income-based securities (TIBS) to improve services',
 	title: 'Nat Ware',
 	heroImage: 'nat',
+	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
 };

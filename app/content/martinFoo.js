@@ -4,4 +4,5 @@ export default {
 	description: 'Start-up nations – Disrupting modern governance',
 	title: 'Martin Foo',
 	heroImage: 'martin',
+	essayPDF: 'http://www.symposium.org/sites/default/files/Essay_MartinFoo.pdf',
 };

@@ -4,4 +4,5 @@ export default {
 	description: 'Strategic Virtual Task Simulations (SVTS) & Learning',
 	title: 'Sigin Ojulu',
 	heroImage: 'sigin',
+	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Sigin_Ojulu.pdf',
 };
