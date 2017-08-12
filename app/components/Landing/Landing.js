@@ -7,18 +7,29 @@ const Landing = function() {
 	return (
 		<div className={'landing-page'}>
 			<div className={'header'}>
-				<div className={'dark-background'} />
-				<div className={'container'}>
-					<div className={'blocks row'}>
+				<div className={'container full'}>
+					<div className={'row'}>
+						<div className={'col-12'}>
+							<p className={'header-text'}>Three winning student concepts on the topic of “The Dilemma of Disruption” presented for leaders and decision makers to learn about the ideas, connect with the students, and implement their concepts.</p>
+						</div>
+					</div>
+				</div>
+
+				<div className={'container full'}>
+					<div className={'row'}>
 						{content.projects.map((project)=> {
 							return (
-								<Link key={`project-${project.slug}`} to={`/${project.slug}`} className={'col-6 block'}>
-									<div className={'block-content'}>
-										<span>{project.title}</span>
-										<p>{project.description}</p>
-
+								<div className={'col-6'} key={`project-${project.slug}`}>
+									<Link className={'project-title'}to={`/${project.slug}`}>{project.newTitle}</Link>
+									<div className={'project-card'}>
+										<div className={'project-image-block'} />
+										<div className={'project-subtitle'}>{project.newSubtitle}</div>
+										<div className={'project-author'}>{project.title}</div>
 									</div>
-								</Link>
+									<div className={'project-audience'}>
+										{project.audience}
+									</div>
+								</div>
 							);
 						})}
 					</div>
@@ -28,9 +39,8 @@ const Landing = function() {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-12'}>
-						<h2>DISRUPTIVE STUDENT IDEAS</h2>
-						<p>St. Gallen Symposium and MIT Media Lab present four radical ideas for greater change</p>
-						<p>Four international graduate level students have come up with disruptive ideas to solve challenges of greater magnitude. These ideas were <a href={'https://youtu.be/wFyKDILV5-0'}>presented</a> at the 47th St. Gallen Symposium (3–5 May 2017) in Switzerland and further developed in collaboration with researchers from MIT Media Lab. This page serves as a platform for leaders and decision makers to learn more about the ideas, to connect with the students, and to support them in making their ideas happen.</p>
+						<p>At the 47th St. Gallen Symposium (3–5 May 2017 in Switzerland), students from around the globe presented and discussed disruptive ideas to solve tomorrow’s great challenges.</p>
+						<p>The TOM LAB 2017 workshop at the MIT Media Lab supported the winning students, selected from over 1,000 entries, to further develop their ideas into these three concepts.</p>
 					</div>
 				</div>
 			</div>

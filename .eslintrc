@@ -23,6 +23,7 @@
 		"func-names": 0,
 		"import/no-extraneous-dependencies": 0,
 		"indent": [2, "tab"],
+		"max-len": 0,
 		"no-tabs": 0,
 		"no-underscore-dangle": 0,
 		"react/forbid-prop-types": 0,

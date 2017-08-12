@@ -1,34 +1,32 @@
 .navbar {
-	position: absolute;
-	width: 100%;
-	// height: 50px;
-	color: white;
-	// line-height: 50px;	
-	// padding: 0em 1em;
-	// width: 100%;
-	// top: 0;
-	z-index: 1000000;
-	// padding-bottom: 10em;
+	font-size: 3em;
+	font-weight: 200;
+	position: relative;
+	.container {
+		width: 100%;
+		padding-top: 0.5em;
+	}
+	.col-12 {
+		margin: 0.5rem 0px;
+		padding: 0px 4%;
+	}
+	.nav-logo {
+		display: block;
+		vertical-align: top;
+		position: absolute;
+		img {
+			height: 75px;	
+		}
+		
+	}
+	.nav-title {
+		display: block;
+		padding-left: 150px;
+		height: 85px;
+	}
 	a {
 		text-decoration: none;
-		color: inherit;
-		padding: 0em 1em;
-		&:hover {
-			text-decoration: underline;
-		}
+		color: #8B8B8B;
 	}
-
-	.logo {
-		padding: 0.5em 0em;
-		display: inline-block;
-		&:hover {
-			text-decoration: none;
-		}
-	}
-	.nav-links {
-		display: inline-block;
-		float: right;
-	}
-	
 }
 
