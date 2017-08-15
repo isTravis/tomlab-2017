@@ -32,15 +32,16 @@
 			}
 		}
 		&:nth-child(4n + 2) {
-			background-image: linear-gradient(-172deg, #F18BE5 0%, #F45E7C 100%);
-			.project-author {
-				color: #F45E7C;
-			}
-		}
-		&:nth-child(4n + 3) {
 			background-image: linear-gradient(-171deg, #83F1BE 0%, #91BFDB 100%);
 			.project-author {
 				color: #91BFDB;
+			}
+		}
+		&:nth-child(4n + 3) {
+			
+			background-image: linear-gradient(-172deg, #F18BE5 0%, #F45E7C 100%);
+			.project-author {
+				color: #F45E7C;
 			}
 		}
 		&:nth-child(4n + 4) {
