@@ -43,9 +43,18 @@ const Project = function(props) {
 
 			<div className={'container'}>
 				<div className={'row'}>
-					<div className={'col-12'}>
-						{/*<ReactMarkdown source={projectData.markdown} />*/}
-						<div dangerouslySetInnerHTML={{ __html: projectData.html }} />
+					<div className={'col-12 left-padding'}>
+						<div className={'title'}>{projectData.newTitle}</div>
+						<div className={'subtitle'}>{projectData.newSubtitle}</div>
+						<div className={'author'}>{projectData.title}</div>
+					</div>
+				</div>
+			</div>
+
+			<div className={'container'}>
+				<div className={'row'}>
+					<div className={'col-8 left-padding'}>
+						<div className={'article-content'} dangerouslySetInnerHTML={{ __html: projectData.html }} />
 					</div>
 				</div>
 			</div>
