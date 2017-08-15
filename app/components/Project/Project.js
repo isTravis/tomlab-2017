@@ -35,7 +35,7 @@ const Project = function(props) {
 	return (
 		<div className={`project-page accent ${mode}`}>
 			<Helmet>
-				<title>{projectData.newTitle} · TOMLAB 2017</title>
+				<title>{projectData.newTitle} · TOM-LAB 2017</title>
 				<meta name={'description'} content={projectData.newSubtitle} />
 				<meta property={'og:title'} content={projectData.newTitle} />
 				<meta property={'og:type'} content={'article'} />

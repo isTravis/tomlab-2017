@@ -81,10 +81,12 @@
 		}
 		.project-subtitle {
 			padding-top: 1em;
-			font-weight: 500;
+			font-weight: 600;
+			font-size: 1.1em;
 		}
 		.project-author {
-			font-weight: 300;
+			font-weight: 500;
+			font-size: 0.9em;
 			position: absolute;
 			bottom: 1em;
 		}
@@ -97,9 +99,9 @@
 			text-align: right;
 			text-transform: uppercase;
 			opacity: 0.5;
-			font-size: 0.85em;
+			font-size: 0.7em;
 			line-height: 2;
-			font-weight: 200;
+			font-weight: 500;
 		}
 		.project-audience-item {
 			white-space: nowrap;

@@ -16,7 +16,7 @@ const NavBar = function(props) {
 							}
 						</Link>
 						<Link to={'/'} className={'nav-title'}>
-							<span>TOM LAB 2017</span>
+							<span>TOM-LAB 2017</span>
 						</Link>
 					</div>
 				</div>
