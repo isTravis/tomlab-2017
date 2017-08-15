@@ -65,7 +65,7 @@
 		display: block;
 	}
 	figure {
-		padding: 2em 0em;
+		padding: 2em 2em;
 	}
 	figure h6 {
 		margin: 0.5em 0em;
@@ -85,7 +85,7 @@
 
 @media only screen and (max-width: 52em) {  /* 640px */
 	.project-page {
-		.left-padding {
+		.title, .subtitle, .author, .article-content {
 			padding-left: 0px;
 		}
 	}
