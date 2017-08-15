@@ -20,10 +20,6 @@ const App = function(props) {
 
 	return (
 		<div>
-			<Helmet>
-				<title>TOM LAB 2017</title>
-				<meta name="description" content="TOM LAB 2017 - St. Gallen Symposium – empowering the young" />
-			</Helmet>
 
 			<Nav mode={mode} />
 

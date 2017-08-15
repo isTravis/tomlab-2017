@@ -1,10 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import content from 'content';
 
 const Landing = function() {
+	const mainURL = 'https://www.tomlab2017.org';
 	return (
 		<div className={'landing-page'}>
+
+			<Helmet>
+				<title>TOMLAB 2017</title>
+				<meta name={'description'} content={'Explore the winning student ideas on the topic of "The dilemma of disruption" from the 47th Symposium, connect with the students, and help to implement their concepts.'} />
+				<meta property={'og:title'} content={'TOMLAB 2017'} />
+				<meta property={'og:type'} content={'website'} />
+				<meta property={'og:description'} content={'Explore the winning student ideas on the topic of "The dilemma of disruption" from the 47th Symposium, connect with the students, and help to implement their concepts.'} />
+				<meta property={'og:url'} content={mainURL} />
+				<meta property={'og:image'} content={`${mainURL}/images/preview`} />
+				<meta property={'og:width'} content={'500'} />
+				<meta name={'twitter:card'} content={'summary'} />
+				<meta name={'twitter:site'} content={'@isTravis'} />
+				<meta name={'twitter:title'} content={'TOMLAB 2017'} />
+				<meta name={'twitter:description'} content={'Explore the winning student ideas on the topic of "The dilemma of disruption" from the 47th Symposium, connect with the students, and help to implement their concepts.'} />
+				<meta name={'twitter:image'} content={`${mainURL}/images/preview`} />
+				<meta name={'twitter:image:alt'} content={`Avatar for TOMLAB 2017`} />
+			</Helmet>
+
 			<div className={'header'}>
 				<div className={'container'}>
 					<div className={'row'}>
