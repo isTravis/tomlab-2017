@@ -7,11 +7,10 @@ export default {
 	title: 'Nat Ware',
 	email: 'nathanielware@gmail.com',
 	heroImage: 'nat',
+	thumbnail: 'natThumb.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
-	audience: ' impact investors, governments (especially finance ministers), education providers, investment banks, social finance organizations, reinsurance companies, vocational training providers, finance ministers, refugee advocacy organizations, and indigenous advocacy organizations',
+	audience: ['governments', 'impact investors', 'investment banks', 'social finance orgs', 'reinsurance companies', 'refugee orgs'],
 	html: `<div>
-		<h1>Tradeable Income-Based Securities</h1>
-		<h2>A New Way to Finance Services to Disadvantaged Populations Worldwide</h2>
 		<p>As we know, millions of refugees are being resettled across Europe. They need access to services – such as education and healthcare - to enable them to gain employment and achieve their potential.</p>
 		<p>However, governments are under political pressure to not spend too much taxpayer money on refugees. We don’t currently have a way to finance high-quality services to refugees at scale. It’s a seemingly intractable problem.</p>
 		<p>But what if I told you there’s a way to provide services that doesn’t cost the recipients anything, doesn’t rely on donations, doesn’t cost governments any money, and makes a profit for investors. It sounds too good to be true, but it’s not. </p>

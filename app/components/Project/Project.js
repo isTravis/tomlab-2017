@@ -12,6 +12,14 @@ const propTypes = {
 
 const Project = function(props) {
 	const match = props.match;
+
+	const slug = match.params.slug;
+
+	let mode;
+	if (slug === 'sigin-ojulu') { mode = 'sigin'; }
+	if (slug === 'benjamin-hofmann') { mode = 'ben'; }
+	if (slug === 'nat-ware') { mode = 'nat'; }
+
 	const projectData = content.projects.reduce((prev, current)=> {
 		if (current.slug === match.params.slug) {
 			return current;
@@ -24,12 +32,12 @@ const Project = function(props) {
 	}
 
 	return (
-		<div className={'project-page accent'}>
+		<div className={`project-page accent ${mode}`}>
 			<Helmet>
 				<title>{projectData.title} · TOMLAB 2017</title>
 			</Helmet>
 
-			<div className={`header hero-${projectData.heroImage}`}>
+			{/*<div className={`header hero-${projectData.heroImage}`}>
 				<div className={'dark-background'} />
 				<div className={'container'}>
 					<div className={'row'}>
@@ -39,13 +47,22 @@ const Project = function(props) {
 						</div>
 					</div>
 				</div>
+			</div>*/}
+
+			<div className={'container'}>
+				<div className={'row'}>
+					<div className={'col-10'}>
+						<div className={'title'}>{projectData.newTitle}</div>
+						<div className={'subtitle'}>{projectData.newSubtitle}</div>
+						<div className={'author'}>{projectData.title}</div>
+					</div>
+				</div>
 			</div>
 
 			<div className={'container'}>
 				<div className={'row'}>
-					<div className={'col-12'}>
-						{/*<ReactMarkdown source={projectData.markdown} />*/}
-						<div dangerouslySetInnerHTML={{ __html: projectData.html }} />
+					<div className={'col-8'}>
+						<div className={'article-content'} dangerouslySetInnerHTML={{ __html: projectData.html }} />
 					</div>
 				</div>
 			</div>

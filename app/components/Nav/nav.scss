@@ -1,28 +1,35 @@
 .navbar {
+	&.sigin, &.ben, &.nat {
+		padding-bottom: 1em;
+		.nav-title {
+			color: white;	
+		}
+	}
+	&.ben {
+		background-image: linear-gradient(-177deg, #F7CD69 0%, #FAA282 100%);
+	}
+	&.sigin {
+		background-image: linear-gradient(-172deg, #F18BE5 0%, #F45E7C 100%);
+	}
+	
+	&.nat {
+		background-image: linear-gradient(-171deg, #83F1BE 0%, #91BFDB 100%);
+	}
+	padding-top: 0.5em;
 	font-size: 3em;
 	font-weight: 200;
 	position: relative;
-	.container {
-		width: 100%;
-		padding-top: 0.5em;
-	}
-	.col-12 {
-		margin: 0.5rem 0px;
-		padding: 0px 4%;
-	}
 	.nav-logo {
-		display: block;
-		vertical-align: top;
 		position: absolute;
+		top: 20px;
 		img {
 			height: 75px;	
 		}
-		
 	}
 	.nav-title {
 		display: block;
-		padding-left: 150px;
-		height: 85px;
+		// padding-left: 150px;
+		padding-left: 140px;
 	}
 	a {
 		text-decoration: none;
@@ -30,3 +37,10 @@
 	}
 }
 
+@media only screen and (max-width: 52em) {  /* 640px */
+	.navbar {
+		.nav-logo {
+			top: 8px;
+		}
+	}
+}

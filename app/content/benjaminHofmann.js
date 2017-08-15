@@ -7,10 +7,10 @@ export default {
 	title: 'Benjamin Hofmann',
 	email: 'benjamin.hofmann@unisg.ch',
 	heroImage: 'ben',
+	thumbnail: 'benThumb.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Benjamin_Hofmann.pdf',
-	audience: 'Government, Policy-Makers, Public Administration, Mayors, Media, Public',
+	audience: ['Government', 'Policy-Makers', 'Public Admins', 'Mayors', 'Media'],
 	html: `<div>
-		<h1>Glocal Action & Incentive Networks (GAINs):Communities for Democracy and Free Enterprise</h1>
 		<h2>The Disease: Demise of Liberal Democracy and Free Enterprise</h2>
 		<p>The world is currently experiencing the demise of liberal democracy and free enterprise – institutions which used to be so appealing in the past quarter century. Authoritarianism is pushing back democratic institutions in many countries. Fading belief in economic freedom and rising protectionist sentiments are threatening free trade. Growing nationalism is undermining regional integration, as illustrated by dwindling enthusiasm for European integration. These developments are likely to have serious long-term consequences.</p>
 		<figure>
