@@ -139,13 +139,15 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+// @media only screen and (min-width: 33.75em) {  /* 540px */
+@media only screen and (min-width: 40em) {  /* 640px */
   .container {
     // width: 80%;
   }
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+// @media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 52em) {  /* 640px */
   .col-1 {
     width: 4.33%;
   }
@@ -202,6 +204,6 @@ p {
 @media only screen and (min-width: 75em) { /* 1200px */
   .container {
     // width: 75%;
-    max-width: 75rem;
+    // max-width: 75rem;
   }
 }

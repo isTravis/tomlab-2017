@@ -8,8 +8,8 @@ const Footer = function() {
 		<nav className={'footer'}>
 			<div className={'container'}>
 				<div className={'row'}>
-					<div className={'col-12'}>
-						TOM LAB 2017 facilitated by Raphael Schaad, MIT Media Lab. Site hosted on PubPub.
+					<div className={'col-8'}>
+						<div className={'text'}>TOM LAB 2017 facilitated by Raphael Schaad, MIT Media Lab. Site hosted on PubPub.</div>
 					</div>
 				</div>
 			</div>

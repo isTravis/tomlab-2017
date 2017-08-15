@@ -1,11 +1,11 @@
-import martinFoo from 'content/martinFoo';
+// import martinFoo from 'content/martinFoo';
 import benjaminHofmann from 'content/benjaminHofmann';
 import siginOjulu from 'content/siginOjulu';
 import natWare from 'content/natWare';
 
 export default {
 	projects: [
-		martinFoo,
+		// martinFoo,
 		benjaminHofmann,
 		siginOjulu,
 		natWare,

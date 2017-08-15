@@ -7,8 +7,9 @@ export default {
 	title: 'Sigin Ojulu',
 	email: 'OJULU@USC.EDU',
 	heroImage: 'sigin',
+	thumbnail: 'siginThumb.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Sigin_Ojulu.pdf',
-	audience: 'Language Educators / Consultants / Translators Artists, 3D Modelers / Illustrators / Animators / Software Engineers / Coders Investors',
+	audience: ['Language Educators', 'Translators', '3D Modelers', 'Illustrators', 'programmers', 'tech investors'],
 	html: `<div>
 		<h1>The Culture Simulation (Prototype)</h1>
 		<h2>The Story</h2>

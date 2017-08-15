@@ -7,8 +7,9 @@ export default {
 	title: 'Benjamin Hofmann',
 	email: 'benjamin.hofmann@unisg.ch',
 	heroImage: 'ben',
+	thumbnail: 'benThumb.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Benjamin_Hofmann.pdf',
-	audience: 'Government, Policy-Makers, Public Administration, Mayors, Media, Public',
+	audience: ['Government', 'Policy-Makers', 'Public Admins', 'Mayors', 'Media'],
 	html: `<div>
 		<h1>Glocal Action & Incentive Networks (GAINs):Communities for Democracy and Free Enterprise</h1>
 		<h2>The Disease: Demise of Liberal Democracy and Free Enterprise</h2>
