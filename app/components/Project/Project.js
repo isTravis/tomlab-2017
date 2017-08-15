@@ -29,7 +29,7 @@ const Project = function(props) {
 				<title>{projectData.title} · TOMLAB 2017</title>
 			</Helmet>
 
-			<div className={`header hero-${projectData.heroImage}`}>
+			{/*<div className={`header hero-${projectData.heroImage}`}>
 				<div className={'dark-background'} />
 				<div className={'container'}>
 					<div className={'row'}>
@@ -39,7 +39,7 @@ const Project = function(props) {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>*/}
 
 			<div className={'container'}>
 				<div className={'row'}>
