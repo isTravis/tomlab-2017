@@ -1,6 +1,43 @@
 .project-page {
-	.left-padding {
+
+
+	&.ben .author {
+		color: #FAA282;
+	}
+	&.sigin .author {
+		color: #F45E7C;
+	}
+	
+	&.nat .author {
+		color: #91BFDB;
+	}
+
+	.title {
+		font-size: 2.5em;
+		padding: 1em 0em 20px 0em;
+		font-weight: 300;
+	}
+	.subtitle {
+		font-size: 1.5em;
+		padding: 0em 0em 20px 0em;
+		font-weight: 300;
+	}
+	.author {
+		font-weight: 300;
+	}
+	.title, .subtitle, .author, .article-content {
 		padding-left: 150px;
+	}
+	.article-content {
+		h2 {
+			font-size: 1.5em;
+			font-weight: 400;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;	
+		}
+		
 	}
 	// .header {
 	// 	background-image: url('/images/landing.jpg');
