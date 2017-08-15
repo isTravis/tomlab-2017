@@ -11,7 +11,6 @@
 	&.nat .author {
 		color: #91BFDB;
 	}
-
 	.title {
 		font-size: 2.5em;
 		padding: 1em 0em 20px 0em;
@@ -29,6 +28,7 @@
 		padding-left: 150px;
 	}
 	.article-content {
+		max-width: 700px;
 		h2 {
 			font-size: 1.5em;
 			font-weight: 400;

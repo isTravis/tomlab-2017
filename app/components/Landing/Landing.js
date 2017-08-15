@@ -30,7 +30,7 @@ const Landing = function() {
 										</div>
 										<div className={'project-audience'}>
 											{project.audience.map((item, index)=> {
-												return <div className={'project-audience-item'} key={`audience-${project.slug}-${index}`}>{item}</div>
+												return <div className={'project-audience-item'} key={`audience-${project.slug}-${index}`}>{item}</div>;
 											})}
 										</div>
 									</Link>

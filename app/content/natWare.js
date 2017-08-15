@@ -8,6 +8,7 @@ export default {
 	email: 'nathanielware@gmail.com',
 	heroImage: 'nat',
 	thumbnail: 'natThumb.png',
+	preview: 'natPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
 	audience: ['governments', 'impact investors', 'investment banks', 'social finance orgs', 'reinsurance companies', 'refugee orgs'],
 	html: `<div>

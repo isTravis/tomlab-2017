@@ -8,6 +8,7 @@ export default {
 	email: 'benjamin.hofmann@unisg.ch',
 	heroImage: 'ben',
 	thumbnail: 'benThumb.png',
+	preview: 'benPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Benjamin_Hofmann.pdf',
 	audience: ['Government', 'Policy-Makers', 'Public Admins', 'Mayors', 'Media'],
 	html: `<div>

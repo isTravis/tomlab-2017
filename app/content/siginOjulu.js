@@ -8,6 +8,7 @@ export default {
 	email: 'OJULU@USC.EDU',
 	heroImage: 'sigin',
 	thumbnail: 'siginThumb.png',
+	preview: 'siginPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Sigin_Ojulu.pdf',
 	audience: ['Language Educators', 'Translators', '3D Modelers', 'Illustrators', 'programmers', 'tech investors'],
 	html: `<div>
