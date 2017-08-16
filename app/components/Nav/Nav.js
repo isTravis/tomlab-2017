@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+require('./nav.scss');
+
 const NavBar = function(props) {
 	const mode = props.mode;
 

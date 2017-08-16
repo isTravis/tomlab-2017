@@ -1,9 +1,11 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+require('./nomatch.scss');
+
 const NoMatch = function() {
 	return (
-		<div id={'nomatch-page'}>
+		<div className={'nomatch'}>
 			<Helmet title="Not Found · TOMLAB 2017" />
 			<h1>Page not found</h1>
 		</div>

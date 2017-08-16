@@ -5,6 +5,8 @@ import { withRouter } from 'react-router-dom';
 import NoMatch from 'components/NoMatch/NoMatch';
 import content from 'content';
 
+require('./project.scss');
+
 const propTypes = {
 	match: PropTypes.object.isRequired,
 };
@@ -50,18 +52,6 @@ const Project = function(props) {
 				<meta name={'twitter:image'} content={`${mainURL}/images/${projectData.preview}`} />
 				<meta name={'twitter:image:alt'} content={`Avatar for ${projectData.newTitle}`} />
 			</Helmet>
-
-			{/*<div className={`header hero-${projectData.heroImage}`}>
-				<div className={'dark-background'} />
-				<div className={'container'}>
-					<div className={'row'}>
-						<div className={'col-12 project-title'}>
-							<div className={'heavy'}>{projectData.title}</div>
-							<div className={'subheader'}>{projectData.description}</div>
-						</div>
-					</div>
-				</div>
-			</div>*/}
 
 			<div className={'container'}>
 				<div className={'row'}>

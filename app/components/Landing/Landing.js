@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import content from 'content';
 
+require('./landing.scss');
+
 const Landing = function() {
 	const mainURL = 'https://www.tomlab2017.org';
 	return (
