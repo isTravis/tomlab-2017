@@ -8,7 +8,7 @@ const Footer = function() {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-8'}>
-						<div className={'text'}>TOM LAB 2017 facilitated by <a href={'https://www.raphaelschaad.com/'}>Raphael Schaad</a>, MIT Media Lab. Site hosted with <a href={'https://www.pubpub.org'}>PubPub</a>.</div>
+						<div className={'text'}>TOM-LAB 2017 facilitated by <a href={'https://www.raphaelschaad.com/'}>Raphael Schaad</a>, MIT Media Lab. Site hosted with <a href={'https://www.pubpub.org'}>PubPub</a>.</div>
 					</div>
 				</div>
 			</div>

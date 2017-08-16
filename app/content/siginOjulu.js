@@ -9,7 +9,7 @@ export default {
 	thumbnail: 'siginThumb.png',
 	preview: 'siginPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Sigin_Ojulu.pdf',
-	audience: ['Language Educators', 'Translators', '3D Modelers', 'Illustrators', 'programmers', 'tech investors'],
+	audience: ['For', 'Educators', 'Translators', '3D Artists', 'programmers', 'tech investors'],
 	html: `<div>
 		<h2>The Story</h2>
 		<p>When I first moved to California,  a few colleagues and took a drive to location scout for a film locations and also to test out our new drones. We had each only recently moved to Los Angeles as young professionals, yet one colleague Ben was oddly oriented and familiar with the terrain. When I asked him how he knew the geography so well, he replied by saying, "I know where I am because I played <em>Grand Theft Auto</em> – it’s the same exact topography." The other colleague Alex chimed in saying, "Yeah, I wouldn’t have felt as comfortable in Miami if my mom didn’t let me play <em>Vice City</em>". Oddly enough, I had never operated a drone before this expedition and I certainly was not a huge gamer before getting into virtual reality (VR), but because my thumbs and technological expectations are wired for hardware to be interactive, the first time that I flew a drone was incredibly simple and felt natural to me. </p>

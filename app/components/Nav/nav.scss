@@ -16,11 +16,12 @@
 		background-image: linear-gradient(-172deg, #F18BE5 0%, #F45E7C 100%);
 	}
 	padding-top: 0.5em;
-	font-size: 3em;
+	font-size: 3.75em;
 	font-weight: 200;
 	position: relative;
 	.nav-logo {
 		position: absolute;
+		letter-spacing: -2px;
 		top: 20px;
 		img {
 			height: 75px;	
@@ -39,6 +40,7 @@
 
 @media only screen and (max-width: 52em) {  /* 640px */
 	.navbar {
+		font-size: 3em;
 		.nav-logo {
 			top: 8px;
 		}

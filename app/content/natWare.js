@@ -9,7 +9,7 @@ export default {
 	thumbnail: 'natThumb.png',
 	preview: 'natPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
-	audience: ['governments', 'impact investors', 'investment banks', 'social finance orgs', 'reinsurance companies', 'refugee orgs'],
+	audience: ['For', 'governments', 'investment banks', 'social finance orgs', 'refugee orgs', 'impact investors'],
 	html: `<div>
 		<p>As we know, millions of refugees are being resettled across Europe. They need access to services – such as education and healthcare - to enable them to gain employment and achieve their potential.</p>
 		<p>However, governments are under political pressure to not spend too much taxpayer money on refugees. We don’t currently have a way to finance high-quality services to refugees at scale. It’s a seemingly intractable problem.</p>

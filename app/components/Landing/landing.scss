@@ -1,6 +1,7 @@
 .landing-page {
 	.text {
 		padding-left: 150px;
+		font-size: 16px;
 	}
 	.container.full {
 		margin: 2em auto 2em;
@@ -46,7 +47,7 @@
 			background-image: linear-gradient(-172deg, #8F8BF1 0%, #5EB4F4 100%);
 		}
 		.project-content {
-			max-width: calc(425px - 2em);
+			// max-width: calc(425px - 2em);
 			height: calc(440px - 2em);
 			display: block;
 			// background-color: rgba(0,0,0,0.2);
@@ -56,10 +57,10 @@
 			&:after {
 				content: "";
 				margin: 0 auto;
-				width: calc(175px - 4em);
+				width: calc(175px - 2em);
 				height: 225px;
 				position: absolute;
-				left: 3em;
+				left: 2em;
 				top: 193px;
 				display: block;
 				z-index: -1;
@@ -67,34 +68,39 @@
 		}
 		&:nth-child(4n + 1) {
 			.project-content:after {
-				box-shadow: 0px 0px 40px 0px #FAA282;
+				box-shadow: 0px 0px 55px 0px hsla(16, 66%, 35%, 0.7);
 			}
 		}
 		&:nth-child(4n + 2) {
 			.project-content:after {
-				box-shadow: 0px 0px 40px 0px #91BFDB;
+				box-shadow: 0px 0px 55px 0px hsla(203, 33%, 35%, 0.7);
 			}
 		}
 		&:nth-child(4n + 3) {
 			.project-content:after {
-				box-shadow: 0px 0px 40px 0px #F45E7C;
+				box-shadow: 0px 0px 55px 0px hsla(348, 55%, 33%, 0.7);
 			}
 		}
 		.project-image-block {
 			margin: -1em 0em 0em -1em;
 			img {
 				width: calc(100% + 1em);
+				border-top-right-radius: 3px;
+				border-top-left-radius: 3px;
 			}
 		}
 		.project-title {
-			font-size: 24px;
-			font-weight: 200;
+			font-size: 26px;
+			line-height: 38px;
+			opacity: 0.9;
+			font-weight: 100;
+			letter-spacing: 0.5px;
 			height: 150px;
 			display: block;
 		}
 		.project-card {
 			background: #F2F2F2;
-			box-shadow: 0 0 10px 0 rgba(0,0,0,0.40);
+			box-shadow: 0 0 1px 0 rgba(0,0,0,0.10);
 			border-radius: 3px;
 			width: 175px;
 			height: 225px;
@@ -104,27 +110,38 @@
 			padding: 1em;
 		}
 		.project-subtitle {
-			padding-top: 1em;
+			padding-top: 1.5em;
 			font-weight: 600;
-			font-size: 1.1em;
+			letter-spacing: -0.5px;
+			line-height: 24px;
+			font-size: 18px;
 		}
 		.project-author {
-			font-weight: 500;
-			font-size: 0.9em;
+			// font-weight: 500;
+			// font-size: 0.9em;
 			position: absolute;
-			bottom: 1em;
+			bottom: 3em;
+			text-transform: uppercase;
+
+			// opacity: 0.5;
+			font-size: 10px;
+			// line-height: 24px;
+			letter-spacing: 1px;
+			font-weight: 500;
 		}
 
 		.project-audience {
 			// width: 200px;
 			position: absolute;
-			bottom: 140px;
-			right: 1em;
+			bottom: 148px;
+			right: -11px;
 			text-align: right;
 			text-transform: uppercase;
 			opacity: 0.5;
-			font-size: 0.7em;
-			line-height: 2;
+			// font-size: 0.7em;
+			font-size: 10px;
+			line-height: 24px;
+			letter-spacing: 1px;
 			font-weight: 500;
 		}
 		.project-audience-item {
