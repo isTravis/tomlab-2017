@@ -139,12 +139,28 @@
 		.text {
 			padding-left: 0px;
 		}
-		.col-4 {
+		.row .col-4 {
 			width: 90%;
 			padding: 0px 5%;
+			height: auto;
+			margin: 0px;
+			.project-title {
+				height: auto;
+				padding-bottom: 1.5em;
+			}
 			.project-content {
 				max-width: 100%;
 				padding: 1em 2%;
+				height: auto;
+			}
+			.project-card {
+				position: relative;
+				margin: 0 auto;
+			}
+			.project-audience {
+				position: static;
+				padding-top: 1.5em;
+				text-align: center;
 			}
 		}
 

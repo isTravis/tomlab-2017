@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import { Route, withRouter, Switch } from 'react-router-dom';
 import Nav from 'components/Nav/Nav';
 import Landing from 'components/Landing/Landing';
