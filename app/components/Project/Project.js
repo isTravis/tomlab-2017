@@ -58,7 +58,7 @@ const Project = function(props) {
 					<div className={'col-12'}>
 						<div className={'title'}>{projectData.newTitle}</div>
 						<div className={'subtitle'}>{projectData.newSubtitle}</div>
-						<div className={'author'}>{projectData.title}</div>
+						<div className={'author'}>{projectData.longTitle}</div>
 					</div>
 				</div>
 			</div>
@@ -70,6 +70,20 @@ const Project = function(props) {
 					</div>
 				</div>
 			</div>
+
+			{/*<div className={'container'}>
+				<div className={'row'}>
+					<div className={'col-12'}>
+						<div className={'left-padded'}>
+							<div className={'audience'}>
+								{projectData.audience.map((item, index)=> {
+									return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== 0 && index !== projectData.audience.length -1 && '·'} </span>;
+								})}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>*/}
 
 		</div>
 	);

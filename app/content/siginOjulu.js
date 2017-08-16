@@ -4,6 +4,7 @@ export default {
 	slug: 'sigin-ojulu',
 	description: 'Strategic Virtual Task Simulations (SVTS) & Learning',
 	title: 'Sigin Ojulu',
+	longTitle: ' Sigin Ojulu (South Sudan), University of Southern California',
 	email: 'OJULU@USC.EDU',
 	heroImage: 'sigin',
 	thumbnail: 'siginThumb.png',

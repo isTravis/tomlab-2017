@@ -4,6 +4,7 @@ export default {
 	slug: 'benjamin-hofmann',
 	description: 'Saving liberalism: Governance through Global Hanses',
 	title: 'Benjamin Hofmann',
+	longTitle: 'Benjamin Hofmann (Germany), University of St. Gallen',
 	email: 'benjamin.hofmann@unisg.ch',
 	heroImage: 'ben',
 	thumbnail: 'benThumb.png',
@@ -40,7 +41,7 @@ export default {
 		<p><b>Glocal</b>. GAINs connect local jurisdictions – cities, counties, or regions – to develop joint policy responses to global challenges based on shared interests and specialties.</p>
 		<blockquote>Glocal cooperation already exists. Next Century Cities brings together 170 US cities to expand broadband internet access. C40 fosters the exchange of best practices in energy and climate policy among 40 global megacities. Yet, these cooperative efforts are too soft for reducing disparities among communities. </blockquote>
 		<p>GAINs go beyond existing collaborations. GAINs develop joint policies and regulations, pool resources, and foster policy experimentation. They also reinterpret the constructive roles communities can play: Forerunners can serve as facilitators by setting policies that go beyond national frameworks and by supporting development in other communities. Also-rans need not be passive recipients of support, but can become laboratories by providing room for active policy innovation, experimentation, and learning.</p>
-		<figure>
+		<figure class="large">
 			<img src="/images/ben/Image_04.jpg"/>
 			<figcaption>Source: Pixabay</figcaption>
 		</figure>
