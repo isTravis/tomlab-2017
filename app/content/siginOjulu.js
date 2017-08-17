@@ -39,7 +39,7 @@ export default {
 			<img src="/images/sigin/image02.png" />
 		</figure>
 		<figure>
-			<video controls src="/images/sigin/video_03.mp4"></video>
+			<video controls src="/images/sigin/video_03.mp4" preload="metadata"></video>
 		</figure>
 		<p>Each artifact will lead you to a new segment of the world that you have chosen.</p>
 		<p>Going to school, for example, will launch you into a new interactive game design that will teach you Arabic like Rosetta Stone. But instead of being trapped inside a book or behind a screen, it will be like you are in the middle of the country. You will interact with avatars who speak the language and take further field trips to learn vocabulary, grammar, colloquialisms of Arabic, etc.</p>
