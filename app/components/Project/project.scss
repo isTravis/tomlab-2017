@@ -44,6 +44,9 @@
 		}
 		
 	}
+	.cta-container {
+		max-width: 700px;
+	}
 	.audience {
 		text-transform: uppercase;
 		font-size: 10px;
@@ -97,7 +100,7 @@
 		line-height: 16px;
 		padding-bottom: 16px;
 		padding-left: calc(150px + 32px);
-		max-width: calc(700px - 150px - 32px);
+		// max-width: calc(700px - 150px - 32px);
 	}
 
 	.link-list {
