@@ -23,7 +23,9 @@ export default {
 		<p>Now, if gaming is powerful enough to elicit in Ben an employable mental map of a place he had never physically been, certainly this is a minute illustration of the power of interactive learning methods; thus urging us in the direction of drastic reconstruction of learning practices. Virtual reality provides a platform in which we can develop our learning (and by extension understanding) amidst the abundance of biased information we receive daily.	</p>
 		<h2>The Project</h2>
 		<p>The prototype we are developing is an educational (VR) simulation in which we can learn about other cultures through interactive gameplay. The pilot content countries we are looking to develop are in Egypt, France, Spain, Senegal & China. Let’s start off in Egypt.</p>
-		<iframe src="https://drive.google.com/file/d/0B1OCLC4RSIvEdVpPV1FheGF1S1U/preview" width="640" height="480"></iframe>
+		<figure>
+			<video controls src="/images/sigin/video_01.mp4" preload="metadata"></video>
+		</figure>
 		<h2>The Design</h2>
 		<p>The Prototype Design is as follows:</p>
 		<em>*Video & pictures are un-rendered references to the design. The final product hopes to look like live action gaming.</em>
@@ -32,7 +34,7 @@ export default {
 			<img src="/images/sigin/image01.png" />
 		</figure>
 		<figure>
-			<iframe src="https://drive.google.com/file/d/0B1OCLC4RSIvETm9OX1c0M0NIYlU/preview" width="640" height="480"></iframe>
+			<video controls src="/images/sigin/video_02.mp4" preload="metadata"></video>
 		</figure>
 		<p>You as the gamer will be fully immersed and interact with the content that you chose to engage with.</p>
 		<figure>
@@ -47,14 +49,14 @@ export default {
 			<img src="/images/sigin/image03.png" />
 		</figure>
 		<figure>
-			<iframe src="https://drive.google.com/file/d/0B1OCLC4RSIvEWTFPVjN0THE3VzQ/preview" width="640" height="480"></iframe>
+			<video controls src="/images/sigin/video_04.mp4" preload="metadata"></video>
 		</figure>
 		<p>Choose your own content. Behind each artifact is a story, an experience or lesson to help you better understand the content and furthermore, encode the information you have just learned better.</p>
 		<figure>
 			<img src="/images/sigin/image04.png" />
 		</figure>
 		<figure>
-			<iframe src="https://drive.google.com/file/d/0B1OCLC4RSIvEMldIeHZ4bk94Zms/preview" width="640" height="480"></iframe>
+			<video controls src="/images/sigin/video_05.mp4" preload="metadata"></video>
 		</figure>
 		<figure>
 			<img src="/images/sigin/image05.png" />
