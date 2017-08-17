@@ -38,7 +38,6 @@ export default {
 			<img src="/images/nat/diagram2.jpg" />
 		</figure>
 		<p>One final advantage of TIBS is that it enables a new market-based method of measuring social impact called Discounted Expected Marginal Impact (DEMI). DEMI uses the change in the present discounted value of expected lifetime income as a proxy for social impact. The change in the discounted expected lifetime income can be calculated from the change in the market price of a Tradeable Income-Based Security. Whereas the main existing method of measuring social impact, Social Return On Investment (SROI), assesses social return subjectively and intermittently relative to a no-investment counterfactual, DEMI is able to assesses social return objectively and continuously relative to a best alternative investment counterfactual. DEMI is able to measure marginal social impact rather than absolute social impact by ascertaining the counterfactual investment via a contract bidding process. </p>
-		<p>For more detailed information on how TIBS and DEMI would work, please contact Nat Ware at nathanielware@gmail.com.</p>
 
 	</div>`
 };

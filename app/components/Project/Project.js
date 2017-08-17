@@ -77,8 +77,8 @@ const Project = function(props) {
 						<div className={'left-padded'}>
 							<div className={'cta-container'}>
 								<div className={'audience'}>
-									{projectData.audience.map((item, index)=> {
-										return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== 0 && index !== projectData.audience.length -1 && '·'} </span>;
+									{projectData.audience.slice(1, projectData.audience.length).map((item, index)=> {
+										return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== projectData.audience.length - 2 && '·'} </span>;
 									})}
 								</div>
 								<a href={`mailto:${projectData.email}`} target={'_blank'} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
