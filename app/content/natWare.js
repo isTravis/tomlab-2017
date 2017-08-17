@@ -10,6 +10,11 @@ export default {
 	thumbnail: 'natThumb.png',
 	preview: 'natPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
+	bioText: 'Nat has developed an idea for a new type of public-private partnership which aims to finance services (such as vocational training) to disadvantaged populations in a way that doesn\'t cost the recipients anything, doesn\'t rely on donations, doesn\'t cost governments anything, and generates a financial return for investors.',
+	bioPic: 'nat.png',
+	linkedinUrl: 'https://www.linkedin.com/in/natware/',
+	pitchVideoUrl: 'https://youtu.be/wFyKDILV5-0?t=1h14m51s',
+	firstName: 'Nat',
 	audience: ['For', 'governments', 'investment banks', 'social finance orgs', 'refugee orgs', 'impact investors'],
 	html: `<div>
 		<p>As we know, millions of refugees are being resettled across Europe. They need access to services – such as education and healthcare - to enable them to gain employment and achieve their potential.</p>

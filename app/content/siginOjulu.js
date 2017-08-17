@@ -5,11 +5,16 @@ export default {
 	description: 'Strategic Virtual Task Simulations (SVTS) & Learning',
 	title: 'Sigin Ojulu',
 	longTitle: ' Sigin Ojulu (South Sudan), University of Southern California',
-	email: 'OJULU@USC.EDU',
+	email: 'ojulu@usc.edu',
 	heroImage: 'sigin',
 	thumbnail: 'siginThumb.png',
 	preview: 'siginPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Sigin_Ojulu.pdf',
+	bioText: 'Sigin suggests a new way of learning through unleashing the potential of Virtual reality. She argues that by encoding a personal virtual experience into our physical wiring, we are able to contextualize our learning (and by extension encode empathy) towards problems and conflicts that seem far from us, and sometimes in a different world.',
+	bioPic: 'sigin.png',
+	linkedinUrl: 'https://www.linkedin.com/in/sigin-ojulu-04958062/',
+	pitchVideoUrl: 'https://youtu.be/wFyKDILV5-0?t=48m23s',
+	firstName: 'Sigin',
 	audience: ['For', 'Educators', 'Translators', '3D Artists', 'programmers', 'tech investors'],
 	html: `<div>
 		<h2>The Story</h2>

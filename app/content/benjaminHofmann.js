@@ -10,6 +10,11 @@ export default {
 	thumbnail: 'benThumb.png',
 	preview: 'benPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Benjamin_Hofmann.pdf',
+	bioText: 'Benjamin wants to save liberalism by governing through Global Hanses. Global Hanses are flexible policy collaborations of globalized regions and municipalities. They translate the historic role model of the Hanseatic League into a socially and economically unevenly globalized world.',
+	bioPic: 'benjamin.png',
+	linkedinUrl: 'https://www.linkedin.com/in/benjamin-hofmann-21780578/',
+	pitchVideoUrl: 'https://youtu.be/wFyKDILV5-0?t=1289',
+	firstName: 'Benjamin',
 	audience: ['For', 'Governments', 'Policy Makers', 'Public Admins', 'Mayors', 'Media'],
 	html: `<div>
 		<h2>The Disease: Demise of Liberal Democracy and Free Enterprise</h2>

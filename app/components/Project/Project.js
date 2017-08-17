@@ -71,7 +71,7 @@ const Project = function(props) {
 				</div>
 			</div>
 
-			{/*<div className={'container'}>
+			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-12'}>
 						<div className={'left-padded'}>
@@ -80,10 +80,19 @@ const Project = function(props) {
 									return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== 0 && index !== projectData.audience.length -1 && '·'} </span>;
 								})}
 							</div>
+							<a href={`mailto:${projectData.email}`} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
+							<img alt={projectData.title} className={'bio-pic'} src={`/images/${projectData.bioPic}`} />
+							<div className={'bio-text'}>{projectData.bioText}</div>
+							<ul className={'link-list'}>
+								<a href={projectData.pitchVideoUrl}><li>Pitch (3min video)</li></a>
+								<a href={projectData.essayPDF}><li>Essay (PDF)</li></a>
+								<a href={projectData.linkedinUrl}><li>LinkedIn Profile</li></a>
+							</ul>
+
 						</div>
 					</div>
 				</div>
-			</div>*/}
+			</div>
 
 		</div>
 	);
