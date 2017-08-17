@@ -81,7 +81,7 @@ const Project = function(props) {
 										return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== 0 && index !== projectData.audience.length -1 && '·'} </span>;
 									})}
 								</div>
-								<a href={`mailto:${projectData.email}`} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
+								<a href={`mailto:${projectData.email}`} target={'_blank'} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
 								<img alt={projectData.title} className={'bio-pic'} src={`/images/${projectData.bioPic}`} />
 								<div className={'bio-text'}>{projectData.bioText}</div>
 								<ul className={'link-list'}>
