@@ -143,6 +143,9 @@
 		width: calc(100% + 16em);
 		max-width: calc(100% + 16em);
 		padding: 2em 0em;
+		iframe {
+			height: 500px;
+		}
 	}
 	figure h6 {
 		margin: 0.5em 0em;

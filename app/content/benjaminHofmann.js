@@ -10,8 +10,8 @@ export default {
 	thumbnail: 'benThumb.png',
 	preview: 'benPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Benjamin_Hofmann.pdf',
-	bioText: 'Benjamin wants to save liberalism by governing through Global Hanses. Global Hanses are flexible policy collaborations of globalized regions and municipalities. They translate the historic role model of the Hanseatic League into a socially and economically unevenly globalized world.',
-	bioPic: 'benjamin.png',
+	bioText: 'Benjamin is a researcher and Ph.D. candidate in International Relations at the University of St.Gallen. He previously served as policy officer in an intergovernmental organization. He now wants to support democracy and free enterprise by creating Glocal Action & Incentive Networks (GAINs).',
+	bioPic: 'benjamin.jpg',
 	linkedinUrl: 'https://www.linkedin.com/in/benjamin-hofmann-21780578/',
 	pitchVideoUrl: 'https://youtu.be/wFyKDILV5-0?t=1289',
 	firstName: 'Benjamin',
@@ -53,9 +53,9 @@ export default {
 		<p><b>Action & Incentives</b>. GAINs use differentiated political and economic incentives for communities to engage in complementary actions as facilitators and laboratories.</p>
 		<blockquote>Partnerships between diverse jurisdictions can work. An instructive example are the public administration partnerships after German reunification. West German states successfully mentored the five newly formed East German states in building up their public administrations. However, the formation of such partnerships requires proper incentives.</blockquote>
 		<p>GAINs create incentives for all involved actors. The national level encourages GAINs by transferring limited authority to GAIN facilitators and laboratories. The expected value added for the national level is a more dynamic and geographically broader development that strengthens the country as a whole. Additional competences enable facilitators to set own policies above national standards. In exchange, facilitators pledge to support other communities in acting as laboratories. Laboratories use this support and their room for maneuver to explore ways for building a more fertile economic and social environment in their own communities.</p>
-		<figure>
+		<figure class="large">
 			<h6>GAINs explained in 5 steps</h6>
-			<iframe src="//www.slideshare.net/slideshow/embed_code/key/15CIIEU2oUxqNj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe>
+			<iframe src="//www.slideshare.net/slideshow/embed_code/key/15CIIEU2oUxqNj" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe>
 			<figcaption>Icons by Freepik from www.flaticon.com</figcaption>
 		</figure>
 		<p><b>Networks</b>. GAINs take the form of flexible, issue-specific networks. </p>
