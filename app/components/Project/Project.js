@@ -32,7 +32,7 @@ const Project = function(props) {
 		return <NoMatch />;
 	}
 
-	const mainURL = 'https://www.tomlab2017.org';
+	const mainURL = 'https://tomlab2017.symposium.org';
 
 	return (
 		<div className={`project-page accent ${mode}`}>

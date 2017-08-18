@@ -6,7 +6,7 @@ import content from 'content';
 require('./landing.scss');
 
 const Landing = function() {
-	const mainURL = 'https://www.tomlab2017.org';
+	const mainURL = 'https://tomlab2017.symposium.org';
 	return (
 		<div className={'landing-page'}>
 
