@@ -81,14 +81,14 @@ const Project = function(props) {
 										return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== projectData.audience.length - 2 && '·'} </span>;
 									})}
 								</div>
-								<a href={`mailto:${projectData.email}`} onClick={`window.trackOutboundLink(mailto:${projectData.email}); return false;`} target={'_blank'} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
+								<a href={`mailto:${projectData.email}`} onClick={()=>{ window.trackOutboundLink(`mailto:${projectData.email}`); return false; }} target={'_blank'} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
 								<img alt={projectData.title} className={'bio-pic'} src={`/images/${projectData.bioPic}`} />
 								{/*<div className={'bio-text'}>{projectData.bioText}</div>*/}
 								<div className={'bio-text'} dangerouslySetInnerHTML={{ __html: projectData.bioText }} />
 								<ul className={'link-list'}>
-									<a href={projectData.pitchVideoUrl} onClick={`window.trackOutboundLink(${projectData.pitchVideoUrl}); return false;`} target={'_blank'}><li>Pitch (3min video)</li></a>
-									<a href={projectData.essayPDF} onClick={`window.trackOutboundLink(${projectData.essayPDF}); return false;`} target={'_blank'}><li>Essay (PDF)</li></a>
-									<a href={projectData.linkedinUrl} onClick={`window.trackOutboundLink(${projectData.linkedinUrl}); return false;`} target={'_blank'}><li>LinkedIn Profile</li></a>
+									<a href={projectData.pitchVideoUrl} onClick={()=>{ window.trackOutboundLink(projectData.pitchVideoUrl); return false; }} target={'_blank'}><li>Pitch (3min video)</li></a>
+									<a href={projectData.essayPDF} onClick={()=>{ window.trackOutboundLink(projectData.essayPDF); return false; }} target={'_blank'}><li>Essay (PDF)</li></a>
+									<a href={projectData.linkedinUrl} onClick={()=>{ window.trackOutboundLink(projectData.linkedinUrl); return false; }} target={'_blank'}><li>LinkedIn Profile</li></a>
 								</ul>
 							</div>
 
