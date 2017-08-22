@@ -11,7 +11,7 @@ const NavBar = function(props) {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-10'}>
-						<Link to={'/'} className={'nav-logo'}>
+						<Link to={'http://www.symposium.org'} className={'nav-logo'}>
 							{mode
 								? <img alt={'St. Gallen Logo'} src={'/images/stGallenWhite.png'} />
 								: <img alt={'St. Gallen Logo'} src={'/images/stGallenBlack.png'} />

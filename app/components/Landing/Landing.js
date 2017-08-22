@@ -66,7 +66,7 @@ const Landing = function() {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-8'}>
-						<p className={'text'}>At the 47th <a href={'http://www.symposium.org/'}>St. Gallen Symposium</a> (3–5 May 2017 in Switzerland), students from around the globe <a href={'https://www.youtube.com/watch?v=wFyKDILV5-0'}>presented and discussed</a> disruptive ideas to solve tomorrow’s great challenges.</p>
+						<p className={'text'}>At the 47th <a href={'http://www.symposium.org/'}>St.Gallen Symposium</a> (3–5 May 2017 in Switzerland), students from around the globe <a href={'https://www.youtube.com/watch?v=wFyKDILV5-0'}>presented and discussed</a> disruptive ideas to solve tomorrow’s great challenges.</p>
 						<p className={'text'}>The TOM-LAB 2017 workshop at the MIT Media Lab supported the winning students, selected from over 1,000 entries, to further develop their ideas into these three concepts.</p>
 					</div>
 				</div>

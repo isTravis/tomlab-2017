@@ -55,7 +55,7 @@ export default {
 		<p>GAINs create incentives for all involved actors. The national level encourages GAINs by transferring limited authority to GAIN facilitators and laboratories. The expected value added for the national level is a more dynamic and geographically broader development that strengthens the country as a whole. Additional competences enable facilitators to set own policies above national standards. In exchange, facilitators pledge to support other communities in acting as laboratories. Laboratories use this support and their room for maneuver to explore ways for building a more fertile economic and social environment in their own communities.</p>
 		<figure class="large">
 			<h6>GAINs explained in 5 steps</h6>
-			<iframe src="//www.slideshare.net/slideshow/embed_code/key/15CIIEU2oUxqNj" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width: 100%;" allowfullscreen> </iframe>
+			<video controls src="/images/ben/Image_05.mp4"></video>
 			<figcaption>Icons by Freepik from www.flaticon.com</figcaption>
 		</figure>
 		<p><b>Networks</b>. GAINs take the form of flexible, issue-specific networks. </p>
