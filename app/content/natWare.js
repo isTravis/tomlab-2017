@@ -10,7 +10,7 @@ export default {
 	thumbnail: 'natThumb.png',
 	preview: 'natPreview.png',
 	essayPDF: 'http://www.symposium.org/sites/default/files/2017_Winner_Essay_Nat_Ware.pdf',
-	bioText: 'Nat has developed an idea for a new type of public-private partnership which aims to finance services (such as vocational training) to disadvantaged populations in a way that doesn\'t cost the recipients anything, doesn\'t rely on donations, doesn\'t cost governments anything, and generates a financial return for investors.',
+	bioText: 'Nat Ware is completing a PhD at Oxford, before which he was a Visiting Fellow at Princeton, the Top Oxford MBA Student, and Best Performer in Development Economics at Oxford. He is a Rhodes Scholar, Forbes 30 Under 30, Australian Young Achiever of the Year, WEF Global Shaper, has given three TEDx talks, and is the Founder/CEO of <a href="http://www.180dc.org" target="_blank">180 Degrees Consulting</a>.',
 	bioPic: 'nat.png',
 	linkedinUrl: 'https://www.linkedin.com/in/natware/',
 	pitchVideoUrl: 'https://youtu.be/wFyKDILV5-0?t=1h14m51s',
