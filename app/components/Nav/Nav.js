@@ -11,7 +11,7 @@ const NavBar = function(props) {
 			<div className={'container'}>
 				<div className={'row'}>
 					<div className={'col-10'}>
-						<a href={'http://www.symposium.org'} onClick={()=>{ trackOutboundLink('http://www.symposium.org'); return false; }} target={'_blank'} className={'nav-logo'}>
+						<a href={'http://www.symposium.org'} target={'_blank'} className={'nav-logo'}>
 							{mode
 								? <img alt={'St. Gallen Logo'} src={'/images/stGallenWhite.png'} />
 								: <img alt={'St. Gallen Logo'} src={'/images/stGallenBlack.png'} />

@@ -8,6 +8,7 @@ import NoMatch from 'components/NoMatch/NoMatch';
 
 require('./app.scss');
 
+
 const App = function(props) {
 	const pathname = props.location.pathname;
 
