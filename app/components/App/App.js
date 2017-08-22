@@ -8,6 +8,12 @@ import NoMatch from 'components/NoMatch/NoMatch';
 
 require('./app.scss');
 
+window.trackOutboundLink = function(url) {
+	ga('send', 'event', 'outbound', 'click', url, {
+		transport: 'beacon',
+		hitCallback: function(){ document.location = url; }
+	});
+};
 
 const App = function(props) {
 	const pathname = props.location.pathname;
