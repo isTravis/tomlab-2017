@@ -32,6 +32,11 @@ export default function(locals) {
 			ga('create', 'UA-104891622-1', 'auto');
 			ga('send', 'pageview');
 		</script>
+		<script>
+			var trackOutboundLink = function(url) {
+				ga('send', 'event', 'outbound', 'click', url, { 'transport': 'beacon' });
+			}
+		</script>
 		${helmet.title.toString().replace(regexp, '')}
 		${helmet.meta.toString().replace(regexp, '')}
 		${helmet.link.toString().replace(regexp, '')}

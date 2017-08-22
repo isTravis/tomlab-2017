@@ -81,7 +81,7 @@ const Project = function(props) {
 										return <span className={'project-audience-item'} key={`audience-${projectData.slug}-${index}`}>{item} {index !== projectData.audience.length - 2 && '·'} </span>;
 									})}
 								</div>
-								<a href={`mailto:${projectData.email}`} target={'_blank'} className={`contact-button ${mode}`}>Message {projectData.firstName}</a>
+								<div dangerouslySetInnerHTML={{ __html: `<a onclick="trackOutboundLink('mailto:${projectData.email}'); window.open('mailto:${projectData.email}', '_blank');" class="contact-button ${mode}"}>Message ${projectData.firstName}</a>` }} />
 								<img alt={projectData.title} className={'bio-pic'} src={`/images/${projectData.bioPic}`} />
 								{/*<div className={'bio-text'}>{projectData.bioText}</div>*/}
 								<div className={'bio-text'} dangerouslySetInnerHTML={{ __html: projectData.bioText }} />
