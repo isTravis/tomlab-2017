@@ -55,7 +55,7 @@ export default {
 		<p>GAINs create incentives for all involved actors. The national level encourages GAINs by transferring limited authority to GAIN facilitators and laboratories. The expected value added for the national level is a more dynamic and geographically broader development that strengthens the country as a whole. Additional competences enable facilitators to set own policies above national standards. In exchange, facilitators pledge to support other communities in acting as laboratories. Laboratories use this support and their room for maneuver to explore ways for building a more fertile economic and social environment in their own communities.</p>
 		<figure class="large">
 			<h6>GAINs explained in 5 steps</h6>
-			<video controls src="/images/ben/Image_05.mp4"></video>
+			<video controls src="/images/ben/Image_05.mp4" preload="metadata"></video>
 			<figcaption>Icons by Freepik from www.flaticon.com</figcaption>
 		</figure>
 		<p><b>Networks</b>. GAINs take the form of flexible, issue-specific networks. </p>
@@ -70,7 +70,7 @@ export default {
 		<p><b>The national level</b> will grant additional authority to partnering facilitators and laboratories. In return, it can expect a boost in digitalization inside and outside of the established digital hubs. It will also see new economic and social interaction among previously separated communities. </p>
 		<figure>
 			<h6>Who does what and why: National level and GAIN communities</h6>
-			<video controls src="/images/ben/Image_07.mp4"></video>
+			<video controls src="/images/ben/Image_07.mp4" preload="metadata"></video>
 		</figure>
 		<p><b>Facilitators</b> will use their additional legal competences to develop more far-reaching digitalization policies that reinforce the digital sector in these communities. Policies may address various fields.</p>
 		<blockquote>Education: coding as mandatory foreign language in school, vocational and higher education curricula.
