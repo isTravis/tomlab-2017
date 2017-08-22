@@ -83,7 +83,6 @@ const Project = function(props) {
 								</div>
 								<div dangerouslySetInnerHTML={{ __html: `<a onclick="trackOutboundLink('mailto:${projectData.email}'); window.open('mailto:${projectData.email}', '_blank');" class="contact-button ${mode}"}>Message ${projectData.firstName}</a>` }} />
 								<img alt={projectData.title} className={'bio-pic'} src={`/images/${projectData.bioPic}`} />
-								{/*<div className={'bio-text'}>{projectData.bioText}</div>*/}
 								<div className={'bio-text'} dangerouslySetInnerHTML={{ __html: projectData.bioText }} />
 								<ul className={'link-list'}>
 									<a href={projectData.pitchVideoUrl} target={'_blank'}><li>Pitch (3min video)</li></a>
