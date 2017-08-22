@@ -9,9 +9,10 @@ import NoMatch from 'components/NoMatch/NoMatch';
 require('./app.scss');
 
 window.trackOutboundLink = function(url) {
+	console.log('Sending with url ', url);
 	ga('send', 'event', 'outbound', 'click', url, {
 		transport: 'beacon',
-		hitCallback: function(){ document.location = url; }
+		hitCallback: function() { document.location = url; }
 	});
 };
 
